@@ -1,0 +1,7 @@
+default:
+  suites:
+    bookshop:
+      paths:
+        - "%paths.base%/src/features"
+      contexts:
+        - App\Features\Bootstrap\BookHoursContext

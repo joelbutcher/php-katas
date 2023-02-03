@@ -1,0 +1,19 @@
+{
+    "name": "mannum/book-hours-kata",
+    "description": "Book Hours Kata",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "behat/behat": "^3.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/behat"
+    }
+}
