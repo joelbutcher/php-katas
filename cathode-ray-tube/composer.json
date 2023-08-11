@@ -1,0 +1,34 @@
+{
+    "name": "joelbutcher/cathode-ray-tube",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.10",
+        "illuminate/collections": "^10.10"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JoelButcher\\CathodeRayTube\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoelButcher\\CathodeRayTube\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joel Butcher",
+            "email": "JoelButcher@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
